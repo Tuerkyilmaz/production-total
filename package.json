@@ -1,0 +1,28 @@
+{
+  "name": "production-total",
+  "type": "module",
+  "version": "0.2.3",
+  "private": true,
+  "scripts": {
+    "dev": "nuxt dev",
+    "build": "nuxt build",
+    "generate": "nuxt generate",
+    "preview": "nuxt preview",
+    "postinstall": "nuxt prepare"
+  },
+  "dependencies": {
+    "@aws-sdk/client-s3": "^3.1034.0",
+    "@supabase/supabase-js": "^2.104.0",
+    "@vercel/blob": "^2.3.3",
+    "@vueuse/motion": "^2.2.0",
+    "gsap": "^3.14.2",
+    "nodemailer": "^8.0.4",
+    "nuxt": "3.21.2",
+    "sharp": "^0.34.5",
+    "vue": "^3.5.0"
+  },
+  "devDependencies": {
+    "@nuxtjs/tailwindcss": "^6.12.0",
+    "typescript": "^5.0.0"
+  }
+}
